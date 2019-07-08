@@ -39,9 +39,9 @@
     [self.loginActivityIndicator startAnimating];
     self.loginButton.hidden = YES;
     
-    if ([self.instanceField.text.lowercaseString containsString:@"gab."]) {
-        return;
-    }
+//    if ([self.instanceField.text.lowercaseString containsString:@"gab."]) {
+//        return;
+//    }
     
     [[MSAppStore sharedStore] setMastodonInstance:self.instanceField.text];
     
