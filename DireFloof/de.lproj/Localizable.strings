@@ -4,8 +4,8 @@
 /* ACCOUNT */
 "ACCOUNT" = "KONTO";
 
-/* About Amaroq */
-"About Amaroq" = "Über Amaroq";
+/* About Libera */
+"About Libera" = "Über Libera";
 
 /* About your Mastodon instance */
 "About your Mastodon instance" = "Über Deine Mastodon Instanz";
@@ -16,12 +16,12 @@
 /* Add instance */
 "Add instance" = "Instanz hinzufügen";
 
-/* Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nAmaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
-"Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
+/* Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nLibera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
+"Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
 
-Amaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Amaroq wurde nach der Inuit Legende eines gigantischen Wolfes benannt, was zu unserem Freund, dem Mastodon, passt. Mögen wir alle durchs Fediversum heulen!
+Libera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Libera wurde nach der Inuit Legende eines gigantischen Wolfes benannt, was zu unserem Freund, dem Mastodon, passt. Mögen wir alle durchs Fediversum heulen!
 
-Amaroq wurde im Geist der Mastodon Idee entwickelt und weiterentwickelt, die dringend eine mobile Anwendung für unsere iOS Freunde gebraucht hat. Hast Du einen Verbesserungsvorschlag oder einen Fehler gefunden? Brauchst Du Unterstüzung? Du kannst uns unter amaroq.feedback@gmail.com erreichen. Der Entwickler ist unter @eurasierboy auf der mastodon.social Instanz erreichbar. Fröhliches Tröten!";
+Libera wurde im Geist der Mastodon Idee entwickelt und weiterentwickelt, die dringend eine mobile Anwendung für unsere iOS Freunde gebraucht hat. Hast Du einen Verbesserungsvorschlag oder einen Fehler gefunden? Brauchst Du Unterstüzung? Du kannst uns unter Libera.feedback@gmail.com erreichen. Der Entwickler ist unter @eurasierboy auf der mastodon.social Instanz erreichbar. Fröhliches Tröten!";
 
 /* App settings */
 "App settings" = "App Einstellungen";

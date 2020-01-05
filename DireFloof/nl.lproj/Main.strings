@@ -364,8 +364,8 @@
 /* Class = "UILabel"; text = "13 hours ago"; ObjectID = "SWj-wv-bf7"; */
 "SWj-wv-bf7.text" = "13 uur geleden";
 
-/* Class = "UILabel"; text = "Amaroq"; ObjectID = "TP0-ZC-qMQ"; */
-"TP0-ZC-qMQ.text" = "Amaroq";
+/* Class = "UILabel"; text = "Libera"; ObjectID = "TP0-ZC-qMQ"; */
+"TP0-ZC-qMQ.text" = "Libera";
 
 /* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "TbS-Hh-ZI2"; */
 "TbS-Hh-ZI2.normalTitle" = "Aanmelden";
@@ -652,8 +652,8 @@
 /* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "oLn-2m-0yg"; */
 "oLn-2m-0yg.normalTitle" = "Privacybeleid";
 
-/* Class = "UIButton"; selectedTitle = "About Amaroq"; ObjectID = "oLn-2m-0yg"; */
-"oLn-2m-0yg.selectedTitle" = "Over Amaroq";
+/* Class = "UIButton"; selectedTitle = "About Libera"; ObjectID = "oLn-2m-0yg"; */
+"oLn-2m-0yg.selectedTitle" = "Over Libera";
 
 /* Class = "UILabel"; text = "John~"; ObjectID = "pFj-zL-Wd9"; */
 "pFj-zL-Wd9.text" = "John~";
@@ -766,8 +766,8 @@
 /* Class = "UILabel"; text = "13 hours ago"; ObjectID = "v3J-FO-VYz"; */
 "v3J-FO-VYz.text" = "13 uur geleden";
 
-/* Class = "UILabel"; text = "Amaroq"; ObjectID = "v3S-aW-ZxL"; */
-"v3S-aW-ZxL.text" = "Amaroq";
+/* Class = "UILabel"; text = "Libera"; ObjectID = "v3S-aW-ZxL"; */
+"v3S-aW-ZxL.text" = "Libera";
 
 /* Class = "UILabel"; text = "Making progress :T Got the tab navigation established, beginning on the timeline displays. Using a dog house for the home icon, dire wolves would totally use them no contest"; ObjectID = "v28-8Q-zAZ"; */
 "v28-8Q-zAZ.text" = "Making progress :T Got the tab navigation established, beginning on the timeline displays. Using a dog house for the home icon, dire wolves would totally use them no contest";

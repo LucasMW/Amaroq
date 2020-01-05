@@ -1,6 +1,6 @@
 //
 //  NotificationService.swift
-//  Amaroq Push
+//  Libera Push
 //
 //  Created by John Gabelmann on 2/24/19.
 //  Copyright © 2019 Keyboard Floofs. All rights reserved.
@@ -22,7 +22,7 @@ class NotificationService: UNNotificationServiceExtension {
         
         if let bestAttemptContent = bestAttemptContent {
         
-            guard let notificationState = UserDefaults(suiteName: "group.keyboardfloofs.amarok")?.retrieve(object: PushNotificationState.self, fromKey: MS_CLIENT_NOTIFICATION_STATE_KEY), let content = try? bestAttemptContent.decrypt(state: notificationState) else {
+            guard let notificationState = UserDefaults(suiteName: "group.MWAPPTECH.amarok")?.retrieve(object: PushNotificationState.self, fromKey: MS_CLIENT_NOTIFICATION_STATE_KEY), let content = try? bestAttemptContent.decrypt(state: notificationState) else {
                 contentHandler(bestAttemptContent)
                 return
             }

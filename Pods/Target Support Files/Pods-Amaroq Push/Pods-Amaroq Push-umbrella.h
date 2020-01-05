@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Amaroq_PushVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Amaroq_PushVersionString[];
+FOUNDATION_EXPORT double Pods_Libera_PushVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Libera_PushVersionString[];
 

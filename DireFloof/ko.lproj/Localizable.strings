@@ -4,8 +4,8 @@
 /* ACCOUNT */
 "ACCOUNT" = "계정";
 
-/* About Amaroq */
-"About Amaroq" = "Amaroq에 대하여";
+/* About Libera */
+"About Libera" = "Libera에 대하여";
 
 /* About your Mastodon instance */
 "About your Mastodon instance" = "인스턴스 정보";
@@ -16,12 +16,12 @@
 /* Add instance */
 "Add instance" = "인스턴스 추가";
 
-/* Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nAmaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
-"Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
+/* Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nLibera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
+"Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
 
-Amaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Amaroq는 이누이트 전설에 등장하는 거대한 늑대의 이름에서 유래했습니다. 이름도 기능도 마스토돈의 친구로 딱 좋은 앱입니다. 전세계가 우리의 울음소리로 가득차길!
+Libera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Libera는 이누이트 전설에 등장하는 거대한 늑대의 이름에서 유래했습니다. 이름도 기능도 마스토돈의 친구로 딱 좋은 앱입니다. 전세계가 우리의 울음소리로 가득차길!
 
-Amaroq는 Mastodon을 사랑하는 마음으로 만들어지고 관리되고 있습니다. 우리 iOS 친구들에게 이 도구가 몹시 필요했거든요. 제안, 오류 제보, 또는 의견이 있으신가요? amaroq.feedback@gmail.com으로 연락주시거나, 개발자 @eurasierboy를 mastodon.social 인스턴스에서 찾아주세요. 해피 투팅!";
+Libera는 Mastodon을 사랑하는 마음으로 만들어지고 관리되고 있습니다. 우리 iOS 친구들에게 이 도구가 몹시 필요했거든요. 제안, 오류 제보, 또는 의견이 있으신가요? Libera.feedback@gmail.com으로 연락주시거나, 개발자 @eurasierboy를 mastodon.social 인스턴스에서 찾아주세요. 해피 투팅!";
 
 /* App settings */
 "App settings" = "앱 설정";

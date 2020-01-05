@@ -50,7 +50,7 @@ end
     # Pods for testing
   end
   
-  target 'Amaroq Push' do
+  target 'Libera Push' do
       inherit! :search_paths
   end
 

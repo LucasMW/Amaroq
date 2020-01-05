@@ -258,7 +258,7 @@
     [dictService setObject:[NSString stringWithFormat:@"%@oauth/token", [[MSAppStore sharedStore] base_url_string]] forKey:kOAuth_TokenURL];
     [dictService setObject:[[MSAppStore sharedStore] client_id] forKey:kOAuth_ClientId];
     [dictService setObject:[[MSAppStore sharedStore] client_secret] forKey:kOAuth_Secret];
-    [dictService setObject:@"amaroq://authorize" forKey:kOAuth_Callback];
+    [dictService setObject:@"Libera://authorize" forKey:kOAuth_Callback];
     [dictService setObject:@"read write follow push" forKey:kOAuth_Scope];
     
     [[NSNotificationCenter defaultCenter] postNotificationName:DW_DID_CANCEL_LOGIN_NOTIFICATION object:nil];

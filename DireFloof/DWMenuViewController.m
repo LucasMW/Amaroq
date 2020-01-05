@@ -216,7 +216,7 @@ typedef NS_ENUM(NSUInteger, DWMenuRowType) {
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"BlockIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"Blocked users", @"Blocked users")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"BlockIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"Blocked domains", @"Blocked domains")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"MuteIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"Muted users", @"Muted users")},
-                       @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"DireWolfLogoSmall"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"About Amaroq", @"About Amaroq")},
+                       @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"DireWolfLogoSmall"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"About Libera", @"About Libera")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"InformationIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"About your Mastodon instance", @"About your Mastodon instance")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"LogoutIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"Logout", @"Logout")}];
     

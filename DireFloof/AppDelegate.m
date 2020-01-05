@@ -33,8 +33,8 @@
     if ([[MSAuthStore sharedStore] isLoggedIn]) {
         NSString *const host = url.host;
         if ([host isEqualToString:@"user"] && url.pathComponents.count > 1) {
-            // amaroq://user/[fully qualified account name]
-            // For example: amaroq://user/timonus@mastodon.technology
+            // Libera://user/[fully qualified account name]
+            // For example: Libera://user/timonus@mastodon.technology
             NSString *const username = url.pathComponents[1]; // First path component is "/", second path component is the username.
             NSString *const sanitizedUsername = [username.lowercaseString stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"@"]];
             [[MSUserStore sharedStore] searchForUsersWithQuery:sanitizedUsername withCompletion:^(BOOL success, NSArray *users, NSError *error) {
@@ -62,10 +62,10 @@
             }];
         }
         else if ([host isEqualToString:@"open"]) {
-            // amaroq://open?url=[URL to a Mastodon account or status]
+            // Libera://open?url=[URL to a Mastodon account or status]
             // For example:
-            // amaroq://open?url=https%3A%2F%2Fmastodon.social%2F%40Gargron%2F101927228503810895
-            // amaroq://open?url=https%3A%2F%2Ftoot.cafe%2F%40chartier
+            // Libera://open?url=https%3A%2F%2Fmastodon.social%2F%40Gargron%2F101927228503810895
+            // Libera://open?url=https%3A%2F%2Ftoot.cafe%2F%40chartier
             NSURLComponents *const components = [NSURLComponents componentsWithURL:url resolvingAgainstBaseURL:YES];
             NSString *objectURLString = nil;
             for (NSURLQueryItem *const queryItem in components.queryItems) {

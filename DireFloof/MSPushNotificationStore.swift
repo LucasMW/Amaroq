@@ -19,13 +19,13 @@ class MSPushNotificationStore: NSObject {
         return MSPushNotificationStore.singleton
     }
     
-    private var state: PushNotificationState? = UserDefaults(suiteName: "group.keyboardfloofs.amarok")?.retrieve(object: PushNotificationState.self, fromKey: MS_CLIENT_NOTIFICATION_STATE_KEY) {
+    private var state: PushNotificationState? = UserDefaults(suiteName: "group.MWAPPTECH.amarok")?.retrieve(object: PushNotificationState.self, fromKey: MS_CLIENT_NOTIFICATION_STATE_KEY) {
         didSet {
             guard let state = state else {
                 return
             }
             
-            UserDefaults(suiteName: "group.keyboardfloofs.amarok")?.save(customObject: state, inKey: MS_CLIENT_NOTIFICATION_STATE_KEY)
+            UserDefaults(suiteName: "group.MWAPPTECH.amarok")?.save(customObject: state, inKey: MS_CLIENT_NOTIFICATION_STATE_KEY)
         }
     }
     
@@ -36,11 +36,11 @@ class MSPushNotificationStore: NSObject {
         
         // TODO: Think of a better way to only update the notification state on token change, this will have notification decryption problems on network failure
         let alerts = PushNotificationAlerts(favourite: DWSettingStore.shared()?.favoriteNotifications ?? false, follow: DWSettingStore.shared()?.newFollowerNotifications ?? false, mention: DWSettingStore.shared()?.mentionNotifications ?? false, reblog: DWSettingStore.shared()?.boostNotifications ?? false)
-        let subscription = PushNotificationSubscription(endpoint: URL(string:"https://amaroq-apns.herokuapp.com/relay-to/production/\(token)")!, alerts: alerts)
+        let subscription = PushNotificationSubscription(endpoint: URL(string:"https://Libera-apns.herokuapp.com/relay-to/production/\(token)")!, alerts: alerts)
         let receiver = try! PushNotificationReceiver()
         state = PushNotificationState(receiver: receiver, subscription: subscription, deviceToken: requestToken)
         
-        let params = PushNotificationSubscriptionRequest(endpoint: "https://amaroq-apns.herokuapp.com/relay-to/production/\(token)", receiver: receiver, alerts: alerts)
+        let params = PushNotificationSubscriptionRequest(endpoint: "https://Libera-apns.herokuapp.com/relay-to/production/\(token)", receiver: receiver, alerts: alerts)
         
         guard let baseAPI = MSAppStore.shared()?.base_api_url_string else {
             if let completion = completion {

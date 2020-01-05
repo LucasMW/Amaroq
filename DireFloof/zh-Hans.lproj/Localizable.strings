@@ -4,8 +4,8 @@
 /* ACCOUNT */
 "ACCOUNT" = "账号";
 
-/* About Amaroq */
-"About Amaroq" = "关于Amaroq";
+/* About Libera */
+"About Libera" = "关于Libera";
 
 /* About your Mastodon instance */
 "About your Mastodon instance" = "关于本实例";
@@ -16,12 +16,12 @@
 /* Add instance */
 "Add instance" = "添加实例";
 
-/* Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nAmaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
-"Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
+/* Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nLibera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
+"Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
 
-Amaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Amaroq是根据因纽特传说中的巨狼命名的，很适合做长毛象的小伙伴。 让我们一起嚎叫吧！
+Libera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Libera是根据因纽特传说中的巨狼命名的，很适合做长毛象的小伙伴。 让我们一起嚎叫吧！
 
-Amaroq是出于对长毛象项目理念的热爱及急需iOS客户端的朋友们共同构建的。意见、建议以及bug，或者需要帮助的话请发邮件至amaroq.feedback@gmail.com。或者@eurasierboy@mastodon.social。嘟嘟愉快！";
+Libera是出于对长毛象项目理念的热爱及急需iOS客户端的朋友们共同构建的。意见、建议以及bug，或者需要帮助的话请发邮件至Libera.feedback@gmail.com。或者@eurasierboy@mastodon.social。嘟嘟愉快！";
 
 /* App settings */
 "App settings" = "App设置";

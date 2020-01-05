@@ -4,8 +4,8 @@
 /* ACCOUNT */
 "ACCOUNT" = "ACCOUNT";
 
-/* About Amaroq */
-"About Amaroq" = "Over Amaroq";
+/* About Libera */
+"About Libera" = "Over Libera";
 
 /* About your Mastodon instance */
 "About your Mastodon instance" = "Over jouw Mastodon";
@@ -16,10 +16,10 @@
 /* Add instance */
 "Add instance" = "Voeg een server toe";
 
-/* Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nAmaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
-"Amaroq is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
+/* Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!\n\nLibera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting! */
+"Libera is named after an Inuit legend of a giant wolf, which is fitting as a companion to our friend the mastodon. May we all howl across the fediverse!
 
-Amaroq is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at amaroq.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Amaroq is ontwikkeld en onderhouden door een liefde aan het idee van Mastodon, die in nood was van een mobiele optie voor iOS-gebruikers. Heb je een suggestie, een bug gevonden of wil je gewoon wat ondersteuning? Je kunt ons bereiken via amaroq.feedback@gmail.com. Je kunt ook de ontwikkelaar via Mastodon bereiken op @eurasierboy op de mastodon.social-server. Veel plezier met tooten!";
+Libera is built and maintained by a love of the Mastodon idea, which sorely has needed a mobile outlet for our iOS friends. Got a suggestion, found a bug, or just want to voice some support? You can reach us at Libera.feedback@gmail.com. Or hit up the dev, @eurasierboy on the mastodon.social instance. Happy tooting!" = "Libera is ontwikkeld en onderhouden door een liefde aan het idee van Mastodon, die in nood was van een mobiele optie voor iOS-gebruikers. Heb je een suggestie, een bug gevonden of wil je gewoon wat ondersteuning? Je kunt ons bereiken via Libera.feedback@gmail.com. Je kunt ook de ontwikkelaar via Mastodon bereiken op @eurasierboy op de mastodon.social-server. Veel plezier met tooten!";
 
 /* App settings */
 "App settings" = "App-instellingen";

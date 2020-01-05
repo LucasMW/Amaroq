@@ -187,8 +187,8 @@
     }
     else
     {
-        NSDictionary *params = @{@"client_name": @"Amaroq",
-                                 @"redirect_uris": @"amaroq://authorize",
+        NSDictionary *params = @{@"client_name": @"Libera",
+                                 @"redirect_uris": @"Libera://authorize",
                                  @"scopes": @"read write follow push",
                                  @"website": @"https://appsto.re/us/OfFxib.i"};
         

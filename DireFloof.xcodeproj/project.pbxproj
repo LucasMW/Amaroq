@@ -80,7 +80,6 @@
 		0491925F2222FCA4007BD8BA /* PushNotificationDataObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049192582222FCA3007BD8BA /* PushNotificationDataObjects.swift */; };
 		04919263222317C3007BD8BA /* MSPushNotificationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04919262222317C3007BD8BA /* MSPushNotificationStore.swift */; };
 		0491926B222346E5007BD8BA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491926A222346E5007BD8BA /* NotificationService.swift */; };
-		0491926F222346E5007BD8BA /* Amaroq Push.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04919268222346E4007BD8BA /* Amaroq Push.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0491927522234769007BD8BA /* Decode85.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049192542222FCA2007BD8BA /* Decode85.swift */; };
 		0491927622234769007BD8BA /* DecryptNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049192562222FCA3007BD8BA /* DecryptNotification.swift */; };
 		0491927722234769007BD8BA /* PushNotificationDataObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049192582222FCA3007BD8BA /* PushNotificationDataObjects.swift */; };
@@ -121,13 +120,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0491926D222346E5007BD8BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04EC13E41E46A966000E15A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04919267222346E4007BD8BA;
-			remoteInfo = "Amaroq Push";
-		};
 		04EC14091E46A966000E15A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04EC13E41E46A966000E15A6 /* Project object */;
@@ -143,20 +135,6 @@
 			remoteInfo = DireFloof;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		04919274222346E5007BD8BA /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				0491926F222346E5007BD8BA /* Amaroq Push.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0408CABD1E7208B3009A893D /* DWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAboutViewController.h; sourceTree = "<group>"; };
@@ -408,6 +386,7 @@
 		DE7F5C7AE99DCFC52266FFD9 /* Pods-Amaroq Push.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaroq Push.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaroq Push/Pods-Amaroq Push.release.xcconfig"; sourceTree = "<group>"; };
 		E4A0332E3C43DB011FC8E4DF /* Pods-DireFloofUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE5A11D73B41DDBB26DC2D94 /* Pods_Amaroq_Push.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amaroq_Push.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C8EB622D2EAF700938D37 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -707,6 +686,7 @@
 		04EC13E31E46A966000E15A6 = {
 			isa = PBXGroup;
 			children = (
+				FF7C8EB622D2EAF700938D37 /* info.plist */,
 				04EC13EE1E46A966000E15A6 /* DireFloof */,
 				04EC140B1E46A966000E15A6 /* DireFloofTests */,
 				04EC14161E46A966000E15A6 /* DireFloofUITests */,
@@ -848,12 +828,10 @@
 				04EC13EA1E46A966000E15A6 /* Resources */,
 				04DA37F91E666D6F0059A2A6 /* Build Versioning */,
 				6D67C0BB1102B5D415CD37B8 /* [CP] Embed Pods Frameworks */,
-				04919274222346E5007BD8BA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0491926E222346E5007BD8BA /* PBXTargetDependency */,
 			);
 			name = DireFloof;
 			productName = DireFloof;
@@ -905,12 +883,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Keyboard Floofs";
 				TargetAttributes = {
 					04919267222346E4007BD8BA = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = J8ZUY53AC3;
+						DevelopmentTeam = N39N6XW3TU;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -920,8 +899,8 @@
 					};
 					04EC13EB1E46A966000E15A6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = J8ZUY53AC3;
-						LastSwiftMigration = 1010;
+						DevelopmentTeam = N39N6XW3TU;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -937,13 +916,13 @@
 					};
 					04EC14071E46A966000E15A6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PVMKAYEWNU;
+						DevelopmentTeam = N39N6XW3TU;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 04EC13EB1E46A966000E15A6;
 					};
 					04EC14121E46A966000E15A6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PVMKAYEWNU;
+						DevelopmentTeam = N39N6XW3TU;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 04EC13EB1E46A966000E15A6;
 					};
@@ -1321,11 +1300,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0491926E222346E5007BD8BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04919267222346E4007BD8BA /* Amaroq Push */;
-			targetProxy = 0491926D222346E5007BD8BA /* PBXContainerItemProxy */;
-		};
 		04EC140A1E46A966000E15A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04EC13EB1E46A966000E15A6 /* DireFloof */;
@@ -1471,20 +1445,20 @@
 				CODE_SIGN_ENTITLEMENTS = "Amaroq Push/Amaroq Push.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Amaroq Push/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keyboardfloofs.amarok.Amaroq-Push";
+				PRODUCT_BUNDLE_IDENTIFIER = "MWAPPTECH.amarok.Amaroq-Push";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "Amaroq Push/Amaroq-Push-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1508,18 +1482,18 @@
 				CODE_SIGN_ENTITLEMENTS = "Amaroq Push/Amaroq Push.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Amaroq Push/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keyboardfloofs.amarok.Amaroq-Push";
+				PRODUCT_BUNDLE_IDENTIFIER = "MWAPPTECH.amarok.Amaroq-Push";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Amaroq Push/Amaroq-Push-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1543,18 +1517,18 @@
 				CODE_SIGN_ENTITLEMENTS = "Amaroq Push/Amaroq Push.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Amaroq Push/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keyboardfloofs.amarok.Amaroq-Push";
+				PRODUCT_BUNDLE_IDENTIFIER = "MWAPPTECH.amarok.Amaroq-Push";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Amaroq Push/Amaroq-Push-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;
@@ -1563,20 +1537,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1604,19 +1587,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A855AC4855853CC23E2334AF /* Pods-DireFloof.adhoc.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DireFloof/DireFloof.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloof/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.amarok;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.amarok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DireFloof/DireFloof-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;
 		};
@@ -1626,7 +1609,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = PVMKAYEWNU;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloofTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.DireFloofTests;
@@ -1640,7 +1623,7 @@
 			baseConfigurationReference = D5461B0E07A4CFC6E2ADF2E3 /* Pods-DireFloofUITests.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PVMKAYEWNU;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloofUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.DireFloofUITests;
@@ -1653,20 +1636,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1700,20 +1692,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1733,6 +1734,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1741,20 +1743,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C448DA33BB8B254F9A8757CE /* Pods-DireFloof.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DireFloof/DireFloof.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloof/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.amarok;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.amarok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DireFloof/DireFloof-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1762,19 +1764,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AA8B4A3626D6C8622613371 /* Pods-DireFloof.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DireFloof/DireFloof.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloof/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.amarok;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.amarok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DireFloof/DireFloof-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1784,7 +1786,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = PVMKAYEWNU;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloofTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.DireFloofTests;
@@ -1799,7 +1801,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = PVMKAYEWNU;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloofTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.DireFloofTests;
@@ -1813,7 +1815,7 @@
 			baseConfigurationReference = E4A0332E3C43DB011FC8E4DF /* Pods-DireFloofUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PVMKAYEWNU;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloofUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.DireFloofUITests;
@@ -1827,7 +1829,7 @@
 			baseConfigurationReference = 4262CBE7EF38E5503CA7F47D /* Pods-DireFloofUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = PVMKAYEWNU;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
 				INFOPLIST_FILE = DireFloofUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyboardfloofs.DireFloofUITests;

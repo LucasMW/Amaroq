@@ -39,6 +39,7 @@
     [self.loginActivityIndicator startAnimating];
     self.loginButton.hidden = YES;
     
+    NSLog(@"%@",self.instanceField.text.lowercaseString);
 //    if ([self.instanceField.text.lowercaseString containsString:@"gab."]) {
 //        return;
 //    }

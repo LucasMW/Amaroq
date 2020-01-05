@@ -19,6 +19,7 @@
 
 + (void)accessibilityActionsForStatus:(MSStatus *)status atIndexPath:(NSIndexPath *)indexPath withTarget:(id)target andSelector:(SEL)selector withCompletion:(void (^)(MSStatus *, NSArray *))completion
 {
+    return;
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
         NSMutableArray *actions = [NSMutableArray new];
         

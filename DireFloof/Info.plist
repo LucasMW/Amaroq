@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Amaroq</string>
+	<string>Libera</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,7 +22,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>com.keyboardfloofs.amarok</string>
+			<string>MWAPPTECH.amarok</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>amaroq</string>
@@ -54,11 +54,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>We'd like to access your camera in order to allow you to take a picture to upload</string>
+	<string>We&apos;d like to access your camera in order to allow you to take a picture to upload</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>We'd like access to add to your photo library in order to save images</string>
+	<string>We&apos;d like access to add to your photo library in order to save images</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>We'd like access to your photo library in order to upload your photo selections</string>
+	<string>We&apos;d like access to your photo library in order to upload your photo selections</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Black.ttf</string>
@@ -101,7 +101,7 @@
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleLightContent</string>
+	<string>UIStatusBarStyleDefault</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
