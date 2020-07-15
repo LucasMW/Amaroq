@@ -82,6 +82,7 @@
 
 - (IBAction)cancelLoginPressed:(id)sender
 {
+    
     if (self.lastInstance) {
         [[MSAppStore sharedStore] setMastodonInstance:self.lastInstance];
         [[DWNotificationStore sharedStore] registerForNotifications];

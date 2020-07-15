@@ -267,6 +267,8 @@
 
 - (IBAction)rejectButtonPressed:(id)sender
 {
+    NSLog(@"Reject");
+    
     [[MSUserStore sharedStore] rejectFollowRequestWithId:self.account._id withCompletion:^(BOOL success, NSError *error) {
         [[NSNotificationCenter defaultCenter] postNotificationName:DW_DID_ANSWER_FOLLOW_REQUEST_NOTIFICATION object:self];
     }];
@@ -275,7 +277,10 @@
 
 - (IBAction)authorizeButtonPressed:(id)sender
 {
+    NSLog(@"Authorize");
+    
     [[MSUserStore sharedStore] authorizeFollowRequestWithId:self.account._id withCompletion:^(BOOL success, NSError *error) {
+        
         [[NSNotificationCenter defaultCenter] postNotificationName:DW_DID_ANSWER_FOLLOW_REQUEST_NOTIFICATION object:self];
     }];
 }
@@ -284,6 +289,8 @@
 #pragma mark - Initialization
 
 - (void)awakeFromNib {
+    NSLog(@"Awake");
+    
     [super awakeFromNib];
     // Initialization code
     

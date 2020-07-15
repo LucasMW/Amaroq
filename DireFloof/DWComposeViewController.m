@@ -216,6 +216,7 @@ static NSInteger mediaUploadLimit = 4;
 
 - (IBAction)imageButtonSelected:(id)sender
 {
+    
     PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
     
     if (status == PHAuthorizationStatusDenied) {

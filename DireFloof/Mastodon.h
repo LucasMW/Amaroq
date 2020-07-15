@@ -27,5 +27,5 @@
 #import "MSAppStore.h"
 #import "MSAPIClient.h"
 #import "MSEmoji.h"
-
+#import "MSGroup.h"
 #endif /* Mastodon_h */

@@ -26,6 +26,7 @@
 
 typedef NS_ENUM(NSUInteger, DWMenuRowType) {
     DWMenuRowTypeProfile        = 0,
+    DWMenuRowProfileGroups,
     DWMenuRowTypeInstances,
     DWMenuRowTypePreferences,
     DWMenuRowTypeAppSettings,
@@ -171,6 +172,10 @@ typedef NS_ENUM(NSUInteger, DWMenuRowType) {
             }
         }
             break;
+        case DWMenuRowProfileGroups:
+            NSLog(@"groups");
+            [self performSegueWithIdentifier:@"ProfileSegue" sender:[tableView cellForRowAtIndexPath:indexPath]];
+            break;
         case DWMenuRowTypeInstances:
             [self performSegueWithIdentifier:@"InstanceSegue" sender:[tableView cellForRowAtIndexPath:indexPath]];
             break;
@@ -208,6 +213,7 @@ typedef NS_ENUM(NSUInteger, DWMenuRowType) {
 - (void)configureData
 {
     self.menuItems = @[@{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"UserIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"My profile", @"My profile")},
+                       @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"UserIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"My groups", @"My profile")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"PublicIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"My instances", @"My instances")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"SettingsIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"Account preferences", @"Account preferences")},
                        @{DW_MENU_ITEM_IMAGE_KEY:[UIImage imageNamed:@"SettingsIcon"], DW_MENU_ITEM_TITLE_KEY:NSLocalizedString(@"App settings", @"App settings")},

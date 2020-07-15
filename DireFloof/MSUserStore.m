@@ -13,6 +13,9 @@
 #import "MSAPIClient.h"
 #import "MastodonConstants.h"
 #import "MSAppStore.h"
+#import "MSGroup.h"
+#import "MSTimeline.h"
+#import "MSStatus.h"
 
 @implementation MSUserStore
 
@@ -132,6 +135,56 @@
         }
     }];
 }
+- (void)getMyGroups:(NSString *)userId withCompletion:(void (^)(BOOL success, NSArray *statuses, NSString *nextPageUrl, NSError *error))completion {
+    NSString *requestUrl = [NSString stringWithFormat:@"accounts/groups?tab=member"];
+    [[MSAPIClient sharedClientWithBaseAPI:[[MSAppStore sharedStore] base_api_url_string]] GET:requestUrl parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSHTTPURLResponse *response = ((NSHTTPURLResponse *)[task response]);
+        NSString *nextPageUrl = [MSAPIClient getNextPageFromResponse:response];
+        
+        NSMutableArray *statuses = [@[] mutableCopy];
+        for (NSDictionary *statusJSON in responseObject) {
+                  
+                  MSStatus *status = [[MSStatus alloc] initWithParams:statusJSON];
+                  [statuses addObject:status];
+              }
+        
+        if (completion != nil) {
+            completion(YES, statuses, nextPageUrl, nil);
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        if (completion != nil) {
+            completion(NO, nil, nil, error);
+        }
+    }];
+    
+}
+- (void)getGroupTimelineWithId:(NSInteger *)groupId withCompletion:(void (^)(BOOL success, NSArray *posts, NSString *nextPageUrl, NSError *error))completion {
+    NSString *requestUrl = [NSString stringWithFormat:@"accounts/groups?tab=member"];
+    [[MSAPIClient sharedClientWithBaseAPI:[[MSAppStore sharedStore] base_api_url_string]] GET:requestUrl parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        NSHTTPURLResponse *response = ((NSHTTPURLResponse *)[task response]);
+        NSString *nextPageUrl = [MSAPIClient getNextPageFromResponse:response];
+        
+        NSMutableArray *posts = [@[] mutableCopy];
+        
+        for (NSDictionary *postJson in responseObject) {
+            MSStatus *post = [[MSStatus alloc] initWithParams:postJson];
+                   [posts addObject:post];
+        }
+               
+        
+        if (completion != nil) {
+            completion(YES, posts, nextPageUrl, nil);
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        if (completion != nil) {
+            completion(NO, nil, nil, error);
+        }
+    }];
+    
+}
+
 
 
 - (void)getFollowingForUserWithId:(NSString *)userId withCompletion:(void (^)(BOOL, NSArray *, NSString *, NSError *))completion
@@ -451,6 +504,7 @@
 
 - (void)authorizeFollowRequestWithId:(NSString *)userId withCompletion:(void (^)(BOOL, NSError *))completion
 {
+    
     NSString *requestUrl = [NSString stringWithFormat:@"follow_requests/%@/authorize", userId];
     
     [[MSAPIClient sharedClientWithBaseAPI:[[MSAppStore sharedStore] base_api_url_string]] POST:requestUrl parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
